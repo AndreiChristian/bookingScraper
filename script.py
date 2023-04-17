@@ -29,4 +29,8 @@ hotel["adress"] = soup.find("span", {"class": "hp_address_subtitle"}).text
 
 print(hotel["adress"])
 
+# fc63351294 a168c6f285 d1c4779e7a js-legacy-room-name a25b1d9e47
+
+
+
 
