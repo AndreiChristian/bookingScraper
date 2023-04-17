@@ -21,15 +21,12 @@ response = requests.get(target_url, headers=headers)
 
 soup = BeautifulSoup(response.text, 'html.parser')
 
-
-# hp_address_subtitle
-# js-hp_address_subtitle
-# jq_tooltip
-
-
-hotel["name"] = soup.find("h2", {"class": "d2fee87262 pp-header__title"})
+hotel["name"] = soup.find("h2", {"class": "d2fee87262 pp-header__title"}).text
 
 print(hotel["name"])
 
-hotel["adress"] = soup.find("h2", {"class": "d2fee87262 pp-header__title"})
+hotel["adress"] = soup.find("span", {"class": "hp_address_subtitle"}).text
+
+print(hotel["adress"])
+
 
