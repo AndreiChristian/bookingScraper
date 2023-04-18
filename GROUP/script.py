@@ -29,7 +29,6 @@ hotels = [
     {"name": "The Woodward",
      "url": "the-woodward",
         "roomTypes": [], "roomPrices":[]},
-
 ]
 
 UTILS.testScraper.scrapeHotels(hotels=hotels)
