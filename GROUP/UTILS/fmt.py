@@ -38,6 +38,7 @@ suite_room_types = [
     "Executive Suite"
 ]
 
+
 def format_room_type(room_name):
     if room_name in standard_room_types:
         return "standard"
@@ -47,3 +48,5 @@ def format_room_type(room_name):
         return "junior"
     elif room_name in suite_room_types:
         return "suite"
+    else:
+        return False
