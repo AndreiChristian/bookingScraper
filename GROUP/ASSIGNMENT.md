@@ -20,3 +20,6 @@ Utimately, at the end of your project, your python script should be able to do f
 - 3- Using this dataframe and linear regression, calculate the predicted room rates of your
   competitors for the next day
 - 4- Output the predicted room rate of your hotel for the next day
+
+
+
