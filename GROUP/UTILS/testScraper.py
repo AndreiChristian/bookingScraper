@@ -2,6 +2,12 @@ import requests
 from bs4 import BeautifulSoup
 import time
 import csv
+from datetime import datetime
+
+now = datetime.now()  # get the current date and time
+# format the date and time as a string
+time_str = now.strftime("%Y-%m-%d %H:%M:%S")
+
 
 headers = {
     "User-agent": "Mozilla/5.0 (Windows NT 10.0; Win64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"}
@@ -36,11 +42,9 @@ def scrapeHotels(hotels):
 
         with open("./example.csv", mode='a', newline='') as csv_file:
             writer = csv.writer(csv_file)
+            for i in range(len(hotel["roomTypes"])):
 
-            writer.writerow(hotel["name"])
-
-            writer.writerow(hotel["roomTypes"])
-
-            writer.writerow(hotel["roomPrices"])
+                writer.writerows(
+                    [time_str, hotel["name"], hotel["roomTypes"][i-1], hotel["roomPrices"]][i-1])
 
         print(f"Added data to csv for {hotel['name']}")
