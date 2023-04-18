@@ -1,41 +1,35 @@
-import requests
-from bs4 import BeautifulSoup
-import UTILS.scraper
+import UTILS.testScraper
 
-fairmont_palace_montreux = {
-    "roomTypes": []
-}
+hotels = [
+    #   mandarin oriental
+    {"name": ["Mandarin Oriental"],
+     "url": "mandarin-oriental-geneva", "roomTypes": [], "roomPrices":[]},
+    #   four seasons
+    {"name": ["Four Seasons Geneva"],
+     "url": "four-seasons-geneva", "roomTypes": [], "roomPrices":[]},
+    #   Hotel d'Angleterre
+    {"name": ["Hotel d'Angleterre"],
+     "url": "d-angleterre", "roomTypes": [], "roomPrices":[]},
+    #   intercontinental-geneve
+    {"name": ["Intercontinental Geneve"],
+     "url": "intercontinental-geneve", "roomTypes": [], "roomPrices":[]},
+    #   de-la-paix-ritz-carlton
+    {"name": ["Ritz Carlton Hotel de la Paix"],
+     "url": "de-la-paix-ritz-carlton", "roomTypes": [], "roomPrices":[]},
+    #   Beau Rivage Geneva
+    {"name": ["Beau Rivage Geneva"],
+     "url": "beaurivagegeneva", "roomTypes": [], "roomPrices":[]},
+    #   Fairmont Hotel
+    {"name": ["Fairmont Hotel"], "url": "grand-kempinski-geneva",
+        "roomTypes": [], "roomPrices":[]},
+    # Hotel Metropole Geneva
+    {"name": ["Metropole Geneva"], "url": "metropolegeneve",
+        "roomTypes": [], "roomPrices":[]},
+    # the-woodward
+    {"name": ["The Woodward"],
+     "url": "the-woodward",
+        "roomTypes": [], "roomPrices":[]},
 
-target_url = "https://www.booking.com/hotel/ch/montreuxpalace.en-gb.html?checkin=2023-04-18&checkout=2023-04-19&group_adults=2&group_children=0&no_rooms=1&selected_currency=EUR"
+]
 
-
-test1 = UTILS.scraper.scrape(url=target_url, html_element="a", css_selector="id",
-                             css_identifier="room_type_id_6509831", is_nested=True)
-
-# print(test3)
-
-fairmont_palace_montreux["roomTypes"].append(test1)
-
-test4 = UTILS.scraper.scrape(url=target_url, html_element="a", css_selector="id",
-                             css_identifier="room_type_id_6509804", is_nested=True)
-
-# print(test3)
-
-fairmont_palace_montreux["roomTypes"].append(test4)
-
-
-
-test5 = UTILS.scraper.scrape(url=target_url, html_element="a", css_selector="id",
-                             css_identifier="room_type_id_6509805", is_nested=True)
-
-fairmont_palace_montreux["roomTypes"].append(test5)
-
-# print(fairmont_palace_montreux["roomTypes"])
-
-# prco-valign-middle-helper
-
-print(UTILS.scraper.scrape(url=target_url, html_element="span", css_selector="class",
-                             css_identifier="prco-valign-middle-helper", is_nested=False)
-)
-
-
+UTILS.testScraper.scrapeHotels(hotels=hotels)
