@@ -9,7 +9,7 @@ layout = [[sg.Text('Enter your name:'), sg.Input(key='-NAME-')],
           [sg.Button('Submit'), sg.Button('Cancel')]]
 
 # Create the window
-window = sg.Window('My Simple GUI', layout)
+window = sg.Window('PyStay', layout)
 
 # Event loop
 while True:

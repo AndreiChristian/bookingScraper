@@ -88,7 +88,8 @@ def scrapeHotels(hotels):
                 if (room_price != None) & (room_name != None):
                     hotel["roomTypes"].append(room_name.text.strip())
                     hotel["roomPrices"].append(room_price.text[3:].strip())
+
                     writer.writerow(
-                        [time_str, hotel["name"], room_name.text.strip(), room_price.text[3:].strip()])
+                        [time_str, hotel["name"], hotel["standard"], hotel["superior"], hotel["junior"], hotel["suite"]])
 
             print(f"Fetched data for {hotel['name']}")
