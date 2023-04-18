@@ -18,4 +18,3 @@ def scrape(url, html_element, css_selector, css_identifier, is_nested=False ):
     else :
         return soup.find(html_element, {css_selector: css_identifier}).text
 
-    # return anchor_tag.find('span')
