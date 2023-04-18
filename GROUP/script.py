@@ -22,13 +22,6 @@ hotels = [
     #   Fairmont Hotel
     {"name": "Fairmont Hotel", "url": "grand-kempinski-geneva",
         "standard": 0, "superior": 0, "junior": 0, "suite": 0},
-    # Hotel Metropole Geneva
-    {"name": "Metropole Geneva", "url": "metropolegeneve",
-        "standard": 0, "superior": 0, "junior": 0, "suite": 0},
-    # the-woodward
-    {"name": "The Woodward",
-     "url": "the-woodward",
-        "standard": 0, "superior": 0, "junior": 0, "suite": 0},
 ]
 
 UTILS.testScraper.scrapeHotels(hotels=hotels)

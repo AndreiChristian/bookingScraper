@@ -44,11 +44,10 @@ def scrapeHotels(hotels):
                     is_room_name_ok = UTILS.fmt.format_room_type(
                         room_name=room_name.text.strip())
 
-                    print(is_room_name_ok)
                     if is_room_name_ok:
                         hotel[is_room_name_ok] = room_price.text
 
-                    writer.writerow(
-                        [time_str, hotel["name"], hotel["standard"], hotel["superior"], hotel["junior"], hotel["suite"]])
+            writer.writerow(
+                [time_str, hotel["name"], hotel["standard"], hotel["superior"], hotel["junior"], hotel["suite"]])
 
             print(f"Fetched data for {hotel['name']}")
