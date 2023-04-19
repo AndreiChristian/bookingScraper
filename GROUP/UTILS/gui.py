@@ -8,9 +8,13 @@ layout = [[sg.Text('pyStay. Find out today the prices of tommorow using our mach
 # Create the Window
 window = sg.Window('pyStay', layout)
 # Event Loop to process "events"
-while True:
-    event, values = window.read()
-    if event in (sg.WIN_CLOSED, 'Exit'):
-        break
 
-window.close()
+
+def gui():
+
+    while True:
+        event, values = window.read()
+        if event in (sg.WIN_CLOSED, 'Exit'):
+            break
+
+    window.close()
