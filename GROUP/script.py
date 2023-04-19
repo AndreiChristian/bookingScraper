@@ -37,3 +37,5 @@ UTILS.testScraper.scrapeHotels(hotels=hotels)
 
 # a function that sorts the data from the example.csv and sorts it asscendingly by "name" column
 UTILS.sort.sortData()
+
+UTILS.gui()

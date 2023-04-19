@@ -1,4 +1,6 @@
 Timestamp,name, Standard, Superior, Junior Suite, Suite
+2023-04-19 09:42:49,Beau Rivage Geneva,0,0,0,0
+2023-04-19 09:16:06,Beau Rivage Geneva,0,0,0,0
 2023-04-18 16:21:00,Beau Rivage Geneva,"
 € 747
 ","
@@ -8,6 +10,7 @@ Timestamp,name, Standard, Superior, Junior Suite, Suite
 ","
 € 2,327
 "
+2023-04-19 09:43:42,Beau Rivage Geneva,0,0,0,0
 2023-04-18 16:41:43,Beau Rivage Geneva,"
 € 747
 ","
@@ -35,15 +38,8 @@ Timestamp,name, Standard, Superior, Junior Suite, Suite
 ","
 € 5,105
 "
-2023-04-18 16:21:00,Fairmont Hotel,"
-€ 833
-","
-€ 1,267
-","
-€ 1,267
-","
-€ 5,105
-"
+2023-04-19 09:42:49,Fairmont Hotel,0,0,0,0
+2023-04-19 09:16:06,Fairmont Hotel,0,0,0,0
 2023-04-18 16:37:16,Fairmont Hotel,"
 € 833
 ","
@@ -53,16 +49,18 @@ Timestamp,name, Standard, Superior, Junior Suite, Suite
 ","
 € 5,105
 "
-2023-04-18 16:21:00,Four Seasons Geneva,"
-€ 1,155
+2023-04-19 09:43:42,Fairmont Hotel,0,0,0,0
+2023-04-18 16:21:00,Fairmont Hotel,"
+€ 833
 ","
-€ 1,369
+€ 1,267
 ","
-€ 1,751
+€ 1,267
 ","
-€ 3,861
+€ 5,105
 "
-2023-04-18 16:41:43,Four Seasons Geneva,"
+2023-04-19 09:43:42,Four Seasons Geneva,0,0,0,0
+2023-04-18 16:21:00,Four Seasons Geneva,"
 € 1,155
 ","
 € 1,369
@@ -80,6 +78,17 @@ Timestamp,name, Standard, Superior, Junior Suite, Suite
 ","
 € 3,861
 "
+2023-04-18 16:41:43,Four Seasons Geneva,"
+€ 1,155
+","
+€ 1,369
+","
+€ 1,751
+","
+€ 3,861
+"
+2023-04-19 09:42:49,Four Seasons Geneva,0,0,0,0
+2023-04-19 09:16:06,Four Seasons Geneva,0,0,0,0
 2023-04-18 16:21:00,Hotel d'Angleterre,"
 € 721
 ","
@@ -89,6 +98,9 @@ Timestamp,name, Standard, Superior, Junior Suite, Suite
 ","
 € 4,799
 "
+2023-04-19 09:43:42,Hotel d'Angleterre,0,0,0,0
+2023-04-19 09:42:49,Hotel d'Angleterre,0,0,0,0
+2023-04-19 09:16:06,Hotel d'Angleterre,0,0,0,0
 2023-04-18 16:41:43,Hotel d'Angleterre,"
 € 721
 ","
@@ -107,15 +119,8 @@ Timestamp,name, Standard, Superior, Junior Suite, Suite
 ","
 € 4,799
 "
-2023-04-18 16:41:43,Intercontinental Geneve,"
-€ 624
-","
-€ 747
-","
-€ 1,236
-","
-€ 7,251
-"
+2023-04-19 09:16:06,Intercontinental Geneve,0,0,0,0
+2023-04-19 09:43:42,Intercontinental Geneve,0,0,0,0
 2023-04-18 16:37:16,Intercontinental Geneve,"
 € 624
 ","
@@ -134,15 +139,16 @@ Timestamp,name, Standard, Superior, Junior Suite, Suite
 ","
 € 7,251
 "
-2023-04-18 16:41:43,Mandarin Oriental,"
-€ 803
+2023-04-18 16:41:43,Intercontinental Geneve,"
+€ 624
 ","
-€ 874
+€ 747
 ","
-€ 1,078
+€ 1,236
 ","
-€ 1,282
+€ 7,251
 "
+2023-04-19 09:42:49,Intercontinental Geneve,0,0,0,0
 2023-04-18 16:37:16,Mandarin Oriental,"
 € 803
 ","
@@ -152,6 +158,18 @@ Timestamp,name, Standard, Superior, Junior Suite, Suite
 ","
 € 1,282
 "
+2023-04-19 09:43:42,Mandarin Oriental,0,0,0,0
+2023-04-19 09:42:49,Mandarin Oriental,0,0,0,0
+2023-04-18 16:41:43,Mandarin Oriental,"
+€ 803
+","
+€ 874
+","
+€ 1,078
+","
+€ 1,282
+"
+2023-04-19 09:16:06,Mandarin Oriental,0,0,0,0
 2023-04-18 16:21:00,Mandarin Oriental,"
 € 803
 ","
@@ -161,7 +179,8 @@ Timestamp,name, Standard, Superior, Junior Suite, Suite
 ","
 € 1,282
 "
-2023-04-18 16:21:00,Ritz Carlton Hotel de la Paix,"
+2023-04-19 09:43:42,Ritz Carlton Hotel de la Paix,0,0,0,0
+2023-04-18 16:37:16,Ritz Carlton Hotel de la Paix,"
 € 925
 ","
 € 1,078
@@ -170,6 +189,7 @@ Timestamp,name, Standard, Superior, Junior Suite, Suite
 ","
 € 2,149
 "
+2023-04-19 09:16:06,Ritz Carlton Hotel de la Paix,0,0,0,0
 2023-04-18 16:41:43,Ritz Carlton Hotel de la Paix,"
 € 925
 ","
@@ -179,7 +199,8 @@ Timestamp,name, Standard, Superior, Junior Suite, Suite
 ","
 € 2,149
 "
-2023-04-18 16:37:16,Ritz Carlton Hotel de la Paix,"
+2023-04-19 09:42:49,Ritz Carlton Hotel de la Paix,0,0,0,0
+2023-04-18 16:21:00,Ritz Carlton Hotel de la Paix,"
 € 925
 ","
 € 1,078
