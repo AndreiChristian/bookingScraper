@@ -1,20 +1,46 @@
+import pandas as pd
 import PySimpleGUI as sg
 
-# All the stuff inside your window. This is the PSG magic code compactor...
-layout = [[sg.Text('pyStay. Find out today the prices of tommorow using our machine learning models')],
-          [sg.Text('Enter something on Row 2'), sg.InputText()],
-          [sg.OK(), sg.Exit()]]
+# Load the data
+data = pd.read_csv('mydata_sorted.csv')
 
-# Create the Window
-window = sg.Window('pyStay', layout)
-# Event Loop to process "events"
+# Function to display the dataset
+
+
+def show_dataset():
+    header_list = list(data.columns)
+    data_list = data.head(10).values.tolist()
+
+    layout_table = [
+        [sg.Table(values=data_list, headings=header_list, display_row_numbers=False, auto_size_columns=True,
+                  num_rows=min(25, len(data_list)), alternating_row_color='lightblue', key='-TABLE-')]
+    ]
+
+    window_table = sg.Window("Dataset", layout_table)
+    event, _ = window_table.read()
+    window_table.close()
+
+
+# Define the GUI layout
+layout = [
+    [sg.Text("Luxury Hotel Price Scraper for Geneva")],
+    [sg.Button("Show Dataset", key="SHOW_DATASET")],
+]
+
+# Create the window
+window = sg.Window("Luxury Hotel Price Scraper", layout)
+
+# Event loop
 
 
 def gui():
-
     while True:
         event, values = window.read()
-        if event in (sg.WIN_CLOSED, 'Exit'):
-            break
 
+        if event == sg.WIN_CLOSED:
+            break
+        elif event == "SHOW_DATASET":
+            show_dataset()
+
+# Close the window
     window.close()
