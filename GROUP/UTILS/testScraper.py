@@ -15,7 +15,7 @@ headers = {
 
 
 def getUrl(hotel_url):
-    return f"https://www.booking.com/hotel/ch/{hotel_url}.en-gb.html?checkin=2023-04-18&checkout=2023-04-19&group_adults=2&group_children=0&no_rooms=1&selected_currency=EUR"
+    return f"https://www.booking.com/hotel/ch/{hotel_url}.en-gb.html?checkin=2023-04-19&checkout=2023-04-20&group_adults=2&group_children=0&no_rooms=1&selected_currency=EUR"
 
 
 def scrapeHotels(hotels):
