@@ -1,27 +1,16 @@
 import pandas as pd
 from sklearn.linear_model import LinearRegression
 
-# Define the data as a pandas DataFrame
-data = pd.DataFrame([
-    ["Mandarin Oriental", 803, 874, 1078, 1282],
-    ["Four Seasons Geneva", 1155, 1369, 1751, 3861],
-    ["Hotel d'Angleterre", 721, 1078, 2251, 4799],
-    ["Intercontinental Geneve", 624, 747, 1236, 7251],
-    ["Ritz Carlton Hotel de la Paix", 925, 1078, 1537, 2149],
-    ["Beau Rivage Geneva", 747, 808, 1409, 2327],
-    ["Fairmont Hotel", 833, 1267, 1267, 5105]
-], columns=["Hotel", "Standard", "Superior", "Junior Suite", "Suite"])
+# Read the preprocessed CSV file using pandas
+data = pd.read_csv('your_preprocessed_file_name.csv')
 
-# Separate the input and output variables
-X = data.drop("Hotel", axis=1)
-y = data["Suite"] # Change this to the category you want to predict for
+# Separate the independent variable(s) (X) and dependent variable (y)
+X = data.iloc[:, 1:].values # Use all columns except the first (timestamp)
+y = data.iloc[:, 1].values # Use the second column (Standard)
 
-# Create the model
-model = LinearRegression()
-model.fit(X, y)
+# Create a LinearRegression object and fit the data
+regressor = LinearRegression()
+regressor.fit(X, y)
 
-# Predict the prices for tomorrow
-predicted_prices = model.predict(X)
-
-# Print the predicted prices
-print(predicted_prices)
+# Print the coefficients of the linear regression model
+print(regressor.coef_)
