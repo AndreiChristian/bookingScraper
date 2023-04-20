@@ -28,35 +28,7 @@ def clean_price(price_str):
     return float(price_str.replace('\n', '').replace('€', '').replace(',', '').strip())
 
 
-# def make_linear_regression(room_type_name):
-#     # Clean the room_type_name column by applying the clean_price function
-#     data[room_type_name] = data[room_type_name].apply(clean_price)
-
-#     # Set the independent variable (X) to 'Timestamp' and the dependent variable (Y) to room_type_name
-#     X = data[['Timestamp']].set_axis(['Timestamp'], axis=1)  # Set feature names
-#     Y = data[room_type_name]
-
-#     # Split the data into training (80%) and testing (20%) sets
-#     X_train, X_test, Y_train, Y_test = train_test_split(
-#         X, Y, test_size=0.2, random_state=0)
-
-#     # Create a linear regression model
-#     linear_regression = LinearRegression()
-
-#     # Fit the model to the training data
-#     linear_regression.fit(X_train, Y_train)
-
-#     # # Make predictions on the test data
-#     # Y_pred = linear_regression.predict(X_test)
-
-#     # Predict the price for tomorrow
-#     last_timestamp = data['Timestamp'].max()
-#     next_timestamp = last_timestamp + 24  # Add 24 hours for the next day
-#     tomorrow_price = linear_regression.predict([[next_timestamp]])
-
-#     print(f"\n{blue_cli}The expected price for {room_type_name} tomorrow: €{tomorrow_price[0]:.2f}\n")
-
-def make_linear_regression(room_type_name):
+def make_linear_regression(room_type_name, selected_language):
     # Clean the room_type_name column by applying the clean_price function
     data[room_type_name] = data[room_type_name].apply(clean_price)
 
@@ -82,4 +54,12 @@ def make_linear_regression(room_type_name):
     next_timestamp = last_timestamp + 24  # Add 24 hours for the next day
     tomorrow_price = linear_regression.predict(np.array([[next_timestamp]]))
 
-    print(f"\n{blue_cli}The expected price for {room_type_name} tomorrow: €{tomorrow_price[0]:.2f}\n")
+    if selected_language == "1":
+        print(
+            f"\n{blue_cli}The expected price for {room_type_name} tomorrow: €{tomorrow_price[0]:.2f}\n")
+    elif selected_language == "2":
+        print(
+            f"\n{blue_cli}Ожидаемая стоимость {room_type_name} на завтра: €{tomorrow_price[0]:.2f}\n")
+    elif selected_language == "3":
+        print(
+            f"\n{blue_cli}السعر المتوقع لـ {room_type_name} غدًا: €{tomorrow_price[0]:.2f}\n")

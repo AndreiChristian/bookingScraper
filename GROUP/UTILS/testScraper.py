@@ -30,7 +30,7 @@ def getUrl(hotel_url):
     return f"https://www.booking.com/hotel/ch/{hotel_url}.en-gb.html?checkin={formatted_current_date}&checkout={formatted_next_day}&group_adults=2&group_children=0&no_rooms=1&selected_currency=EUR"
 
 
-def scrapeHotels(hotels):
+def scrapeHotels(selected_language, hotels):
 
     print("Fetching hotels data started!")
 
@@ -62,4 +62,9 @@ def scrapeHotels(hotels):
             writer.writerow(
                 [time_str, hotel["name"], hotel["standard"], hotel["superior"], hotel["junior"], hotel["suite"]])
 
-            print(f"Fetched data for {hotel['name']}")
+            if selected_language == "1":
+                print(f"Fetched data for {hotel['name']}")
+            elif selected_language == "2":
+                print(f"Получены данные для {hotel['name']}")
+            elif selected_language == "3":
+                print(f"تم جلب البيانات لـ {hotel['name']}")
