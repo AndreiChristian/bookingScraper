@@ -53,18 +53,3 @@ def make_linear_regression():
     r2 = r2_score(Y_test, Y_pred)
     print("Mean Squared Error:", mse)
     print("R-squared:", r2)
-
-# Visualize the actual values (blue) and predicted values (red) in a scatter plot
-    plt.scatter(X_test, Y_test, color='blue', label='Actual')
-    plt.scatter(X_test, Y_pred, color='red', label='Predicted')
-
-# Add a black line representing the linear regression model
-    plt.plot(X_test, Y_pred, color='black', linewidth=2)
-
-# Label the axes and add a title and legend
-    plt.xlabel('Timestamp (hours since first observation)')
-    plt.ylabel('Standard Room Price')
-    plt.title('Linear Regression')
-    plt.legend()
-    # Display the plot
-    plt.show()
