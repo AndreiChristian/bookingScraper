@@ -12,7 +12,7 @@ data = pd.read_csv('mydata_sorted.csv')
 data.columns = data.columns.str.strip()
 
 # Display the first few rows of the data
-print(data.head())
+# print(data.head())
 
 # Convert the timestamp to a numerical feature (time difference in hours)
 data['Timestamp'] = pd.to_datetime(data['Timestamp'])
@@ -26,43 +26,45 @@ def clean_price(price_str):
     return float(price_str.replace('\n', '').replace('€', '').replace(',', '').strip())
 
 
+def make_linear_regression():
+
 # Clean the 'Standard' column by applying the clean_price function
-data['Standard'] = data['Standard'].apply(clean_price)
+    data['Standard'] = data['Standard'].apply(clean_price)
 
 # Set the independent variable (X) to 'Timestamp' and the dependent variable (Y) to 'Standard'
-X = data[['Timestamp']]
-Y = data['Standard']
+    X = data[['Timestamp']]
+    Y = data['Standard']
 
 # Split the data into training (80%) and testing (20%) sets
-X_train, X_test, Y_train, Y_test = train_test_split(
-    X, Y, test_size=0.2, random_state=0)
+    X_train, X_test, Y_train, Y_test = train_test_split(
+        X, Y, test_size=0.2, random_state=0)
 
 # Create a linear regression model
-linear_regression = LinearRegression()
+    linear_regression = LinearRegression()
 
 # Fit the model to the training data
-linear_regression.fit(X_train, Y_train)
+    linear_regression.fit(X_train, Y_train)
 
 # Make predictions on the test data
-Y_pred = linear_regression.predict(X_test)
+    Y_pred = linear_regression.predict(X_test)
 
 # Calculate the mean squared error and R-squared score of the model
-mse = mean_squared_error(Y_test, Y_pred)
-r2 = r2_score(Y_test, Y_pred)
-print("Mean Squared Error:", mse)
-print("R-squared:", r2)
+    mse = mean_squared_error(Y_test, Y_pred)
+    r2 = r2_score(Y_test, Y_pred)
+    print("Mean Squared Error:", mse)
+    print("R-squared:", r2)
 
 # Visualize the actual values (blue) and predicted values (red) in a scatter plot
-plt.scatter(X_test, Y_test, color='blue', label='Actual')
-plt.scatter(X_test, Y_pred, color='red', label='Predicted')
+    plt.scatter(X_test, Y_test, color='blue', label='Actual')
+    plt.scatter(X_test, Y_pred, color='red', label='Predicted')
 
 # Add a black line representing the linear regression model
-plt.plot(X_test, Y_pred, color='black', linewidth=2)
+    plt.plot(X_test, Y_pred, color='black', linewidth=2)
 
 # Label the axes and add a title and legend
-plt.xlabel('Timestamp (hours since first observation)')
-plt.ylabel('Standard Room Price')
-plt.title('Linear Regression')
-plt.legend()
+    plt.xlabel('Timestamp (hours since first observation)')
+    plt.ylabel('Standard Room Price')
+    plt.title('Linear Regression')
+    plt.legend()
     # Display the plot
-plt.show()
+    plt.show()

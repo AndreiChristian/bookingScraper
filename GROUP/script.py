@@ -1,6 +1,7 @@
 import UTILS.testScraper
 import UTILS.sort
 import UTILS.gui
+import UTILS.cli
 
 # a list of dictionaries that hold the data necessary to pass the info to the scraper
 # the url holds a dynamic url segment in order to scrape the data from the right website
@@ -32,10 +33,10 @@ hotels = [
         "standard": 0, "superior": 0, "junior": 0, "suite": 0},
 ]
 
-# a function that scrapes the hotel data, get the room rates and add the raw data to example.csv the and the sorted data to mydata_sorted.csv
-UTILS.testScraper.scrapeHotels(hotels=hotels)
+# # a function that scrapes the hotel data, get the room rates and add the raw data to example.csv the and the sorted data to mydata_sorted.csv
+# UTILS.testScraper.scrapeHotels(hotels=hotels)
 
-# a function that sorts the data from the example.csv and sorts it asscendingly by "name" column
-UTILS.sort.sortData()
+# # a function that sorts the data from the example.csv and sorts it asscendingly by "name" column
+# UTILS.sort.sortData()
 
-UTILS.gui.gui()
+UTILS.cli.cli(hotels=hotels)
