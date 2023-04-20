@@ -9,7 +9,6 @@ yellow_cli = "\033[33m"
 reset_cli = "\033[0m"
 
 
-
 def cli(hotels):
     userIsActive = True
     print()
@@ -31,7 +30,25 @@ def cli(hotels):
 
         elif user_response == "2":
             print()
-            UTILS.linear.make_linear_regression()
+            print(f"{blue_cli}Choose a room type{reset_cli}")
+            print()
+            print("1. Standard Room")
+            print("2. Superior Room")
+            print("3. Junior Suite")
+            print("4. Suite")
+            print()
+            room_type_chosen = input("Your choice: 1/2/3/4/q: ")
+
+            if room_type_chosen == "1":
+                UTILS.linear.make_linear_regression("Standard")
+            elif room_type_chosen == "2":
+                UTILS.linear.make_linear_regression("Superior")
+            elif room_type_chosen == "3":
+                UTILS.linear.make_linear_regression("Junior Suite")
+            elif room_type_chosen == "4":
+                UTILS.linear.make_linear_regression("Suite")
+            else:
+                pass
         elif user_response == "q":
             print()
             print("See u later!")
@@ -39,4 +56,3 @@ def cli(hotels):
             userIsActive = False
         else:
             print(f"{blue_cli}Choose one of the next options: 1/2/q")
-

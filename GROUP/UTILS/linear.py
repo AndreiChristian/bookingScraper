@@ -5,6 +5,8 @@ from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LinearRegression
 from sklearn.metrics import mean_squared_error, r2_score
 
+blue_cli = "\033[34m"
+
 # Load the data from the CSV file
 data = pd.read_csv('mydata_sorted.csv')
 
@@ -25,31 +27,59 @@ data['Timestamp'] = (data['Timestamp'] -
 def clean_price(price_str):
     return float(price_str.replace('\n', '').replace('€', '').replace(',', '').strip())
 
+# def make_linear_regression(room_type_name):
+#     # Clean the room_type_name column by applying the clean_price function
+#     data[room_type_name] = data[room_type_name].apply(clean_price)
 
-def make_linear_regression():
+#     # Set the independent variable (X) to 'Timestamp' and the dependent variable (Y) to room_type_name
+#     X = data[['Timestamp']]
+#     Y = data[room_type_name]
 
-# Clean the 'Standard' column by applying the clean_price function
-    data['Standard'] = data['Standard'].apply(clean_price)
+#     # Split the data into training (80%) and testing (20%) sets
+#     X_train, X_test, Y_train, Y_test = train_test_split(
+#         X, Y, test_size=0.2, random_state=0)
 
-# Set the independent variable (X) to 'Timestamp' and the dependent variable (Y) to 'Standard'
-    X = data[['Timestamp']]
-    Y = data['Standard']
+#     # Create a linear regression model
+#     linear_regression = LinearRegression()
 
-# Split the data into training (80%) and testing (20%) sets
+#     # Fit the model to the training data
+#     linear_regression.fit(X_train, Y_train)
+
+#     # Make predictions on the test data
+#     Y_pred = linear_regression.predict(X_test)
+
+#     # Predict the price for tomorrow
+#     last_timestamp = data['Timestamp'].max()
+#     next_timestamp = last_timestamp + 24  # Add 24 hours for the next day
+#     tomorrow_price = linear_regression.predict([[next_timestamp]])
+
+#     print(
+#         f"\nThe expected price for {room_type_name} tomorrow: €{tomorrow_price[0]:.2f}\n")
+
+def make_linear_regression(room_type_name):
+    # Clean the room_type_name column by applying the clean_price function
+    data[room_type_name] = data[room_type_name].apply(clean_price)
+
+    # Set the independent variable (X) to 'Timestamp' and the dependent variable (Y) to room_type_name
+    X = data[['Timestamp']].set_axis(['Timestamp'], axis=1)  # Set feature names
+    Y = data[room_type_name]
+
+    # Split the data into training (80%) and testing (20%) sets
     X_train, X_test, Y_train, Y_test = train_test_split(
         X, Y, test_size=0.2, random_state=0)
 
-# Create a linear regression model
+    # Create a linear regression model
     linear_regression = LinearRegression()
 
-# Fit the model to the training data
+    # Fit the model to the training data
     linear_regression.fit(X_train, Y_train)
 
-# Make predictions on the test data
-    Y_pred = linear_regression.predict(X_test)
+    # # Make predictions on the test data
+    # Y_pred = linear_regression.predict(X_test)
 
-# Calculate the mean squared error and R-squared score of the model
-    mse = mean_squared_error(Y_test, Y_pred)
-    r2 = r2_score(Y_test, Y_pred)
-    print("Mean Squared Error:", mse)
-    print("R-squared:", r2)
+    # Predict the price for tomorrow
+    last_timestamp = data['Timestamp'].max()
+    next_timestamp = last_timestamp + 24  # Add 24 hours for the next day
+    tomorrow_price = linear_regression.predict([[next_timestamp]])
+
+    print(f"\n{blue_cli}The expected price for {room_type_name} tomorrow: €{tomorrow_price[0]:.2f}\n")
