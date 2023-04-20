@@ -82,4 +82,4 @@ def make_linear_regression(room_type_name):
     next_timestamp = last_timestamp + 24  # Add 24 hours for the next day
     tomorrow_price = linear_regression.predict(np.array([[next_timestamp]]))
 
-    print(f"\nThe expected price for {room_type_name} tomorrow: €{tomorrow_price[0]:.2f}\n")
+    print(f"\n{blue_cli}The expected price for {room_type_name} tomorrow: €{tomorrow_price[0]:.2f}\n")

@@ -1,5 +1,5 @@
 Timestamp,name, Standard, Superior, Junior Suite, Suite
-2023-04-19 09:54:59,Beau Rivage Geneva,"
+2023-04-19 15:29:13,Beau Rivage Geneva,"
 € 744
 ","
 € 805
@@ -8,43 +8,7 @@ Timestamp,name, Standard, Superior, Junior Suite, Suite
 ","
 € 2,319
 "
-2023-04-19 11:19:38,Beau Rivage Geneva,"
-€ 744
-","
-€ 805
-","
-€ 1,405
-","
-€ 2,319
-"
-2023-04-19 09:47:23,Beau Rivage Geneva,"
-€ 744
-","
-€ 805
-","
-€ 1,405
-","
-€ 2,319
-"
-2023-04-19 15:25:36,Beau Rivage Geneva,"
-€ 744
-","
-€ 805
-","
-€ 1,405
-","
-€ 2,319
-"
-2023-04-19 10:17:26,Beau Rivage Geneva,"
-€ 744
-","
-€ 805
-","
-€ 1,405
-","
-€ 2,319
-"
-2023-04-19 15:27:30,Beau Rivage Geneva,"
+2023-04-19 10:11:12,Beau Rivage Geneva,"
 € 744
 ","
 € 805
@@ -62,7 +26,7 @@ Timestamp,name, Standard, Superior, Junior Suite, Suite
 ","
 € 2,319
 "
-2023-04-19 15:29:13,Beau Rivage Geneva,"
+2023-04-19 09:47:23,Beau Rivage Geneva,"
 € 744
 ","
 € 805
@@ -71,16 +35,16 @@ Timestamp,name, Standard, Superior, Junior Suite, Suite
 ","
 € 2,319
 "
-2023-04-18 16:41:43,Beau Rivage Geneva,"
-€ 747
+2023-04-20 14:41:21,Beau Rivage Geneva,"
+€ 617
 ","
-€ 808
+€ 678
 ","
-€ 1,409
+€ 1,277
 ","
-€ 2,327
+€ 2,191
 "
-2023-04-20 10:34:46,Beau Rivage Geneva,"
+2023-04-20 14:55:46,Beau Rivage Geneva,"
 € 617
 ","
 € 678
@@ -98,16 +62,7 @@ Timestamp,name, Standard, Superior, Junior Suite, Suite
 ","
 € 2,319
 "
-2023-04-20 13:53:52,Beau Rivage Geneva,"
-€ 617
-","
-€ 678
-","
-€ 1,277
-","
-€ 2,191
-"
-2023-04-20 15:33:19,Beau Rivage Geneva,"
+2023-04-20 14:49:53,Beau Rivage Geneva,"
 € 617
 ","
 € 678
@@ -125,16 +80,7 @@ Timestamp,name, Standard, Superior, Junior Suite, Suite
 ","
 € 2,191
 "
-2023-04-19 10:40:52,Beau Rivage Geneva,"
-€ 744
-","
-€ 805
-","
-€ 1,405
-","
-€ 2,319
-"
-2023-04-18 16:37:16,Beau Rivage Geneva,"
+2023-04-18 16:41:43,Beau Rivage Geneva,"
 € 747
 ","
 € 808
@@ -143,7 +89,16 @@ Timestamp,name, Standard, Superior, Junior Suite, Suite
 ","
 € 2,327
 "
-2023-04-20 14:41:21,Beau Rivage Geneva,"
+2023-04-19 10:17:26,Beau Rivage Geneva,"
+€ 744
+","
+€ 805
+","
+€ 1,405
+","
+€ 2,319
+"
+2023-04-20 14:52:05,Beau Rivage Geneva,"
 € 617
 ","
 € 678
@@ -151,6 +106,15 @@ Timestamp,name, Standard, Superior, Junior Suite, Suite
 € 1,277
 ","
 € 2,191
+"
+2023-04-19 10:40:52,Beau Rivage Geneva,"
+€ 744
+","
+€ 805
+","
+€ 1,405
+","
+€ 2,319
 "
 2023-04-20 14:48:46,Beau Rivage Geneva,"
 € 617
@@ -170,7 +134,25 @@ Timestamp,name, Standard, Superior, Junior Suite, Suite
 ","
 € 2,319
 "
-2023-04-20 14:49:53,Beau Rivage Geneva,"
+2023-04-20 15:51:29,Beau Rivage Geneva,"
+€ 668
+","
+€ 729
+","
+€ 1,328
+","
+€ 2,242
+"
+2023-04-18 16:37:16,Beau Rivage Geneva,"
+€ 747
+","
+€ 808
+","
+€ 1,409
+","
+€ 2,327
+"
+2023-04-20 15:33:19,Beau Rivage Geneva,"
 € 617
 ","
 € 678
@@ -179,7 +161,34 @@ Timestamp,name, Standard, Superior, Junior Suite, Suite
 ","
 € 2,191
 "
-2023-04-19 09:50:14,Beau Rivage Geneva,"
+2023-04-20 13:53:52,Beau Rivage Geneva,"
+€ 617
+","
+€ 678
+","
+€ 1,277
+","
+€ 2,191
+"
+2023-04-19 11:19:38,Beau Rivage Geneva,"
+€ 744
+","
+€ 805
+","
+€ 1,405
+","
+€ 2,319
+"
+2023-04-19 10:05:35,Beau Rivage Geneva,"
+€ 744
+","
+€ 805
+","
+€ 1,405
+","
+€ 2,319
+"
+2023-04-19 15:25:36,Beau Rivage Geneva,"
 € 744
 ","
 € 805
@@ -197,25 +206,7 @@ Timestamp,name, Standard, Superior, Junior Suite, Suite
 ","
 € 2,327
 "
-2023-04-20 14:52:05,Beau Rivage Geneva,"
-€ 617
-","
-€ 678
-","
-€ 1,277
-","
-€ 2,191
-"
-2023-04-20 14:55:46,Beau Rivage Geneva,"
-€ 617
-","
-€ 678
-","
-€ 1,277
-","
-€ 2,191
-"
-2023-04-19 10:05:35,Beau Rivage Geneva,"
+2023-04-19 09:50:14,Beau Rivage Geneva,"
 € 744
 ","
 € 805
@@ -224,7 +215,16 @@ Timestamp,name, Standard, Superior, Junior Suite, Suite
 ","
 € 2,319
 "
-2023-04-19 10:11:12,Beau Rivage Geneva,"
+2023-04-20 10:34:46,Beau Rivage Geneva,"
+€ 617
+","
+€ 678
+","
+€ 1,277
+","
+€ 2,191
+"
+2023-04-19 15:27:30,Beau Rivage Geneva,"
 € 744
 ","
 € 805
@@ -233,61 +233,16 @@ Timestamp,name, Standard, Superior, Junior Suite, Suite
 ","
 € 2,319
 "
-2023-04-19 10:08:58,Fairmont Hotel,"
-€ 760
+2023-04-19 09:54:59,Beau Rivage Geneva,"
+€ 744
 ","
-€ 1,196
+€ 805
 ","
-€ 1,196
+€ 1,405
 ","
-€ 5,088
+€ 2,319
 "
-2023-04-19 10:13:31,Fairmont Hotel,"
-€ 760
-","
-€ 1,196
-","
-€ 1,196
-","
-€ 5,088
-"
-2023-04-19 10:05:35,Fairmont Hotel,"
-€ 760
-","
-€ 1,196
-","
-€ 1,196
-","
-€ 5,088
-"
-2023-04-19 10:17:26,Fairmont Hotel,"
-€ 760
-","
-€ 1,196
-","
-€ 1,196
-","
-€ 5,088
-"
-2023-04-19 10:11:12,Fairmont Hotel,"
-€ 760
-","
-€ 1,196
-","
-€ 1,196
-","
-€ 5,088
-"
-2023-04-19 10:40:52,Fairmont Hotel,"
-€ 760
-","
-€ 1,196
-","
-€ 1,196
-","
-€ 5,088
-"
-2023-04-19 15:25:36,Fairmont Hotel,"
+2023-04-19 15:29:13,Fairmont Hotel,"
 € 760
 ","
 € 1,196
@@ -305,7 +260,7 @@ Timestamp,name, Standard, Superior, Junior Suite, Suite
 ","
 € 5,088
 "
-2023-04-19 15:29:13,Fairmont Hotel,"
+2023-04-19 10:05:35,Fairmont Hotel,"
 € 760
 ","
 € 1,196
@@ -314,17 +269,8 @@ Timestamp,name, Standard, Superior, Junior Suite, Suite
 ","
 € 5,088
 "
-2023-04-20 10:34:46,Fairmont Hotel,"
-€ 708
-","
-€ 1,165
-","
-€ 1,165
-","
-€ 5,086
-"
-2023-04-20 13:53:52,Fairmont Hotel,"
-€ 708
+2023-04-20 14:48:46,Fairmont Hotel,"
+€ 719
 ","
 € 1,165
 ","
@@ -350,7 +296,97 @@ Timestamp,name, Standard, Superior, Junior Suite, Suite
 ","
 € 5,086
 "
-2023-04-20 14:48:46,Fairmont Hotel,"
+2023-04-19 10:11:12,Fairmont Hotel,"
+€ 760
+","
+€ 1,196
+","
+€ 1,196
+","
+€ 5,088
+"
+2023-04-19 10:13:31,Fairmont Hotel,"
+€ 760
+","
+€ 1,196
+","
+€ 1,196
+","
+€ 5,088
+"
+2023-04-19 10:17:26,Fairmont Hotel,"
+€ 760
+","
+€ 1,196
+","
+€ 1,196
+","
+€ 5,088
+"
+2023-04-19 10:40:52,Fairmont Hotel,"
+€ 760
+","
+€ 1,196
+","
+€ 1,196
+","
+€ 5,088
+"
+2023-04-20 13:53:52,Fairmont Hotel,"
+€ 708
+","
+€ 1,165
+","
+€ 1,165
+","
+€ 5,086
+"
+2023-04-19 11:19:38,Fairmont Hotel,"
+€ 760
+","
+€ 1,196
+","
+€ 1,196
+","
+€ 5,088
+"
+2023-04-19 15:25:36,Fairmont Hotel,"
+€ 760
+","
+€ 1,196
+","
+€ 1,196
+","
+€ 5,088
+"
+2023-04-20 10:34:46,Fairmont Hotel,"
+€ 708
+","
+€ 1,165
+","
+€ 1,165
+","
+€ 5,086
+"
+2023-04-19 15:27:30,Fairmont Hotel,"
+€ 760
+","
+€ 1,196
+","
+€ 1,196
+","
+€ 5,088
+"
+2023-04-19 10:08:58,Fairmont Hotel,"
+€ 760
+","
+€ 1,196
+","
+€ 1,196
+","
+€ 5,088
+"
+2023-04-20 14:49:53,Fairmont Hotel,"
 € 719
 ","
 € 1,165
@@ -359,7 +395,25 @@ Timestamp,name, Standard, Superior, Junior Suite, Suite
 ","
 € 5,086
 "
-2023-04-20 14:49:53,Fairmont Hotel,"
+2023-04-20 15:51:29,Fairmont Hotel,"
+€ 785
+","
+€ 1,196
+","
+€ 1,196
+","
+€ 5,086
+"
+2023-04-18 16:41:43,Fairmont Hotel,"
+€ 833
+","
+€ 1,267
+","
+€ 1,267
+","
+€ 5,105
+"
+2023-04-20 14:55:46,Fairmont Hotel,"
 € 719
 ","
 € 1,165
@@ -377,16 +431,7 @@ Timestamp,name, Standard, Superior, Junior Suite, Suite
 ","
 € 5,086
 "
-2023-04-20 14:55:46,Fairmont Hotel,"
-€ 719
-","
-€ 1,165
-","
-€ 1,165
-","
-€ 5,086
-"
-2023-04-19 11:19:38,Fairmont Hotel,"
+2023-04-19 09:49:24,Fairmont Hotel,"
 € 760
 ","
 € 1,196
@@ -395,7 +440,7 @@ Timestamp,name, Standard, Superior, Junior Suite, Suite
 ","
 € 5,088
 "
-2023-04-19 15:27:30,Fairmont Hotel,"
+2023-04-19 09:47:23,Fairmont Hotel,"
 € 760
 ","
 € 1,196
@@ -422,7 +467,7 @@ Timestamp,name, Standard, Superior, Junior Suite, Suite
 ","
 € 5,105
 "
-2023-04-19 09:49:24,Fairmont Hotel,"
+2023-04-19 09:50:14,Fairmont Hotel,"
 € 760
 ","
 € 1,196
@@ -430,15 +475,6 @@ Timestamp,name, Standard, Superior, Junior Suite, Suite
 € 1,196
 ","
 € 5,088
-"
-2023-04-18 16:41:43,Fairmont Hotel,"
-€ 833
-","
-€ 1,267
-","
-€ 1,267
-","
-€ 5,105
 "
 2023-04-18 16:21:00,Fairmont Hotel,"
 € 833
@@ -449,116 +485,13 @@ Timestamp,name, Standard, Superior, Junior Suite, Suite
 ","
 € 5,105
 "
-2023-04-19 09:47:23,Fairmont Hotel,"
-€ 760
+2023-04-20 15:51:29,Four Seasons Geneva,"
+€ 1,069
 ","
-€ 1,196
+€ 1,328
 ","
-€ 1,196
-","
-€ 5,088
-"
-2023-04-19 09:50:14,Fairmont Hotel,"
-€ 760
-","
-€ 1,196
-","
-€ 1,196
-","
-€ 5,088
-"
-2023-04-19 15:29:13,Four Seasons Geneva,"
-€ 1,105
-",0,"
-€ 1,628
-","
-€ 3,564
-"
-2023-04-19 10:40:52,Four Seasons Geneva,"
-€ 1,105
-",0,"
-€ 1,638
-","
-€ 3,564
-"
-2023-04-19 09:49:24,Four Seasons Geneva,"
-€ 1,105
-",0,"
-€ 1,638
-","
-€ 3,564
-"
-2023-04-19 09:50:14,Four Seasons Geneva,"
-€ 1,105
-",0,"
-€ 1,638
-","
-€ 3,564
-"
-2023-04-19 10:13:31,Four Seasons Geneva,"
-€ 1,105
-",0,"
-€ 1,638
-","
-€ 3,564
-"
-2023-04-19 11:19:38,Four Seasons Geneva,"
-€ 1,105
-",0,"
-€ 1,638
-","
-€ 3,564
-"
-2023-04-20 14:48:46,Four Seasons Geneva,"
-€ 937
-","
-€ 1,033
-","
-€ 1,587
-","
-€ 3,887
-"
-2023-04-20 13:54:41,Four Seasons Geneva,"
-€ 937
-","
-€ 1,033
-","
-€ 1,587
-","
-€ 3,887
-"
-2023-04-20 10:34:46,Four Seasons Geneva,"
-€ 932
-","
-€ 1,033
-","
-€ 1,587
-","
-€ 3,887
-"
-2023-04-20 14:55:46,Four Seasons Geneva,"
-€ 937
-","
-€ 1,033
-","
-€ 1,587
-","
-€ 3,887
-"
-2023-04-19 10:11:12,Four Seasons Geneva,"
-€ 1,105
-",0,"
-€ 1,638
-","
-€ 3,564
-"
-2023-04-19 15:25:36,Four Seasons Geneva,"
-€ 1,105
-",0,"
-€ 1,628
-","
-€ 3,564
-"
+€ 1,633
+",0
 2023-04-19 09:47:23,Four Seasons Geneva,"
 € 1,105
 ",0,"
@@ -566,42 +499,24 @@ Timestamp,name, Standard, Superior, Junior Suite, Suite
 ","
 € 3,564
 "
-2023-04-18 16:21:00,Four Seasons Geneva,"
-€ 1,155
+2023-04-20 14:41:21,Four Seasons Geneva,"
+€ 937
 ","
-€ 1,369
+€ 1,033
 ","
-€ 1,751
+€ 1,587
 ","
-€ 3,861
+€ 3,887
 "
-2023-04-18 16:41:43,Four Seasons Geneva,"
-€ 1,155
-","
-€ 1,369
-","
-€ 1,751
-","
-€ 3,861
-"
-2023-04-18 16:37:16,Four Seasons Geneva,"
-€ 1,155
-","
-€ 1,369
-","
-€ 1,751
-","
-€ 3,861
-"
-2023-04-19 10:08:58,Four Seasons Geneva,"
+2023-04-19 10:17:26,Four Seasons Geneva,"
 € 1,105
 ",0,"
 € 1,638
 ","
 € 3,564
 "
-2023-04-20 14:52:05,Four Seasons Geneva,"
-€ 937
+2023-04-20 10:34:46,Four Seasons Geneva,"
+€ 932
 ","
 € 1,033
 ","
@@ -618,7 +533,14 @@ Timestamp,name, Standard, Superior, Junior Suite, Suite
 ","
 € 3,887
 "
-2023-04-20 14:41:21,Four Seasons Geneva,"
+2023-04-19 10:40:52,Four Seasons Geneva,"
+€ 1,105
+",0,"
+€ 1,638
+","
+€ 3,564
+"
+2023-04-20 13:54:41,Four Seasons Geneva,"
 € 937
 ","
 € 1,033
@@ -627,6 +549,31 @@ Timestamp,name, Standard, Superior, Junior Suite, Suite
 ","
 € 3,887
 "
+2023-04-18 16:41:43,Four Seasons Geneva,"
+€ 1,155
+","
+€ 1,369
+","
+€ 1,751
+","
+€ 3,861
+"
+2023-04-19 15:29:13,Four Seasons Geneva,"
+€ 1,105
+",0,"
+€ 1,628
+","
+€ 3,564
+"
+2023-04-18 16:21:00,Four Seasons Geneva,"
+€ 1,155
+","
+€ 1,369
+","
+€ 1,751
+","
+€ 3,861
+"
 2023-04-19 15:27:30,Four Seasons Geneva,"
 € 1,105
 ",0,"
@@ -634,10 +581,19 @@ Timestamp,name, Standard, Superior, Junior Suite, Suite
 ","
 € 3,564
 "
-2023-04-19 10:05:35,Four Seasons Geneva,"
+2023-04-18 16:37:16,Four Seasons Geneva,"
+€ 1,155
+","
+€ 1,369
+","
+€ 1,751
+","
+€ 3,861
+"
+2023-04-19 15:25:36,Four Seasons Geneva,"
 € 1,105
 ",0,"
-€ 1,638
+€ 1,628
 ","
 € 3,564
 "
@@ -650,12 +606,42 @@ Timestamp,name, Standard, Superior, Junior Suite, Suite
 ","
 € 3,887
 "
+2023-04-19 11:19:38,Four Seasons Geneva,"
+€ 1,105
+",0,"
+€ 1,638
+","
+€ 3,564
+"
+2023-04-19 10:13:31,Four Seasons Geneva,"
+€ 1,105
+",0,"
+€ 1,638
+","
+€ 3,564
+"
 2023-04-19 09:54:59,Four Seasons Geneva,"
 € 1,105
 ",0,"
 € 1,638
 ","
 € 3,564
+"
+2023-04-19 10:08:58,Four Seasons Geneva,"
+€ 1,105
+",0,"
+€ 1,638
+","
+€ 3,564
+"
+2023-04-20 14:55:46,Four Seasons Geneva,"
+€ 937
+","
+€ 1,033
+","
+€ 1,587
+","
+€ 3,887
 "
 2023-04-20 14:49:53,Four Seasons Geneva,"
 € 937
@@ -666,121 +652,53 @@ Timestamp,name, Standard, Superior, Junior Suite, Suite
 ","
 € 3,887
 "
-2023-04-19 10:17:26,Four Seasons Geneva,"
+2023-04-19 10:05:35,Four Seasons Geneva,"
 € 1,105
 ",0,"
 € 1,638
 ","
 € 3,564
 "
-2023-04-19 09:49:24,Hotel d'Angleterre,0,"
-€ 1,075
+2023-04-20 14:48:46,Four Seasons Geneva,"
+€ 937
 ","
-€ 2,243
-",0
-2023-04-20 14:49:53,Hotel d'Angleterre,"
-€ 617
+€ 1,033
 ","
-€ 901
-",0,0
-2023-04-19 15:29:13,Hotel d'Angleterre,0,"
-€ 1,075
-",0,0
-2023-04-19 15:25:36,Hotel d'Angleterre,0,"
-€ 1,075
-",0,0
-2023-04-20 14:48:46,Hotel d'Angleterre,"
-€ 617
+€ 1,587
 ","
-€ 901
-",0,0
-2023-04-18 16:37:16,Hotel d'Angleterre,"
-€ 721
-","
-€ 1,078
-","
-€ 2,251
-","
-€ 4,799
+€ 3,887
 "
-2023-04-19 15:27:30,Hotel d'Angleterre,0,"
-€ 1,075
-",0,0
-2023-04-19 11:19:38,Hotel d'Angleterre,0,"
-€ 1,075
+2023-04-19 10:11:12,Four Seasons Geneva,"
+€ 1,105
+",0,"
+€ 1,638
 ","
-€ 2,243
-",0
-2023-04-20 13:53:52,Hotel d'Angleterre,"
-€ 617
-","
-€ 901
-",0,0
-2023-04-19 09:47:23,Hotel d'Angleterre,0,"
-€ 1,075
-","
-€ 2,243
-",0
-2023-04-18 16:41:43,Hotel d'Angleterre,"
-€ 721
-","
-€ 1,078
-","
-€ 2,251
-","
-€ 4,799
+€ 3,564
 "
-2023-04-20 14:52:05,Hotel d'Angleterre,"
-€ 617
+2023-04-20 14:52:05,Four Seasons Geneva,"
+€ 937
 ","
-€ 901
-",0,0
-2023-04-19 10:17:26,Hotel d'Angleterre,0,"
-€ 1,075
+€ 1,033
 ","
-€ 2,243
-",0
+€ 1,587
+","
+€ 3,887
+"
+2023-04-19 09:49:24,Four Seasons Geneva,"
+€ 1,105
+",0,"
+€ 1,638
+","
+€ 3,564
+"
+2023-04-19 09:50:14,Four Seasons Geneva,"
+€ 1,105
+",0,"
+€ 1,638
+","
+€ 3,564
+"
 2023-04-20 10:34:46,Hotel d'Angleterre,"
-€ 617
-","
-€ 901
-",0,0
-2023-04-19 10:13:31,Hotel d'Angleterre,0,"
-€ 1,075
-","
-€ 2,243
-",0
-2023-04-19 09:50:14,Hotel d'Angleterre,0,"
-€ 1,075
-","
-€ 2,243
-",0
-2023-04-19 09:54:59,Hotel d'Angleterre,0,"
-€ 1,075
-","
-€ 2,243
-",0
-2023-04-20 14:55:46,Hotel d'Angleterre,"
-€ 617
-","
-€ 901
-",0,0
-2023-04-19 10:05:35,Hotel d'Angleterre,0,"
-€ 1,075
-","
-€ 2,243
-",0
-2023-04-19 10:11:12,Hotel d'Angleterre,0,"
-€ 1,075
-","
-€ 2,243
-",0
-2023-04-19 10:40:52,Hotel d'Angleterre,0,"
-€ 1,075
-","
-€ 2,243
-",0
-2023-04-20 14:41:21,Hotel d'Angleterre,"
 € 617
 ","
 € 901
@@ -794,12 +712,100 @@ Timestamp,name, Standard, Superior, Junior Suite, Suite
 ","
 € 4,799
 "
+2023-04-19 15:27:30,Hotel d'Angleterre,0,"
+€ 1,075
+",0,0
+2023-04-20 14:52:05,Hotel d'Angleterre,"
+€ 617
+","
+€ 901
+",0,0
+2023-04-18 16:37:16,Hotel d'Angleterre,"
+€ 721
+","
+€ 1,078
+","
+€ 2,251
+","
+€ 4,799
+"
+2023-04-20 15:51:29,Hotel d'Angleterre,"
+€ 678
+","
+€ 993
+",0,0
+2023-04-19 10:05:35,Hotel d'Angleterre,0,"
+€ 1,075
+","
+€ 2,243
+",0
+2023-04-20 14:49:53,Hotel d'Angleterre,"
+€ 617
+","
+€ 901
+",0,0
+2023-04-19 15:29:13,Hotel d'Angleterre,0,"
+€ 1,075
+",0,0
+2023-04-20 13:53:52,Hotel d'Angleterre,"
+€ 617
+","
+€ 901
+",0,0
+2023-04-19 15:25:36,Hotel d'Angleterre,0,"
+€ 1,075
+",0,0
+2023-04-19 09:50:14,Hotel d'Angleterre,0,"
+€ 1,075
+","
+€ 2,243
+",0
+2023-04-19 10:13:31,Hotel d'Angleterre,0,"
+€ 1,075
+","
+€ 2,243
+",0
 2023-04-20 15:33:19,Hotel d'Angleterre,"
 € 617
 ","
 € 901
 ",0,0
-2023-04-20 13:54:41,Hotel d'Angleterre,"
+2023-04-20 14:41:21,Hotel d'Angleterre,"
+€ 617
+","
+€ 901
+",0,0
+2023-04-19 09:47:23,Hotel d'Angleterre,0,"
+€ 1,075
+","
+€ 2,243
+",0
+2023-04-20 14:55:46,Hotel d'Angleterre,"
+€ 617
+","
+€ 901
+",0,0
+2023-04-19 10:17:26,Hotel d'Angleterre,0,"
+€ 1,075
+","
+€ 2,243
+",0
+2023-04-19 10:11:12,Hotel d'Angleterre,0,"
+€ 1,075
+","
+€ 2,243
+",0
+2023-04-19 09:54:59,Hotel d'Angleterre,0,"
+€ 1,075
+","
+€ 2,243
+",0
+2023-04-19 11:19:38,Hotel d'Angleterre,0,"
+€ 1,075
+","
+€ 2,243
+",0
+2023-04-20 14:48:46,Hotel d'Angleterre,"
 € 617
 ","
 € 901
@@ -809,6 +815,102 @@ Timestamp,name, Standard, Superior, Junior Suite, Suite
 ","
 € 2,243
 ",0
+2023-04-20 13:54:41,Hotel d'Angleterre,"
+€ 617
+","
+€ 901
+",0,0
+2023-04-19 09:49:24,Hotel d'Angleterre,0,"
+€ 1,075
+","
+€ 2,243
+",0
+2023-04-18 16:41:43,Hotel d'Angleterre,"
+€ 721
+","
+€ 1,078
+","
+€ 2,251
+","
+€ 4,799
+"
+2023-04-19 10:40:52,Hotel d'Angleterre,0,"
+€ 1,075
+","
+€ 2,243
+",0
+2023-04-20 13:54:41,Intercontinental Geneve,"
+€ 470
+","
+€ 592
+","
+€ 774
+","
+€ 7,072
+"
+2023-04-20 14:52:05,Intercontinental Geneve,"
+€ 470
+","
+€ 592
+","
+€ 774
+","
+€ 7,072
+"
+2023-04-20 15:51:29,Intercontinental Geneve,"
+€ 541
+","
+€ 663
+","
+€ 1,150
+","
+€ 7,143
+"
+2023-04-20 10:34:46,Intercontinental Geneve,"
+€ 470
+","
+€ 592
+","
+€ 774
+","
+€ 7,072
+"
+2023-04-20 13:53:52,Intercontinental Geneve,"
+€ 470
+","
+€ 592
+","
+€ 774
+","
+€ 7,072
+"
+2023-04-20 14:49:53,Intercontinental Geneve,"
+€ 470
+","
+€ 592
+","
+€ 774
+","
+€ 7,072
+"
+2023-04-20 15:33:19,Intercontinental Geneve,"
+€ 470
+","
+€ 592
+","
+€ 774
+","
+€ 7,072
+"
+2023-04-20 14:48:46,Intercontinental Geneve,"
+€ 470
+","
+€ 592
+","
+€ 774
+","
+€ 7,072
+"
 2023-04-20 14:41:21,Intercontinental Geneve,"
 € 470
 ","
@@ -817,6 +919,60 @@ Timestamp,name, Standard, Superior, Junior Suite, Suite
 € 774
 ","
 € 7,072
+"
+2023-04-20 14:55:46,Intercontinental Geneve,"
+€ 470
+","
+€ 592
+","
+€ 774
+","
+€ 7,072
+"
+2023-04-19 11:19:38,Intercontinental Geneve,"
+€ 622
+","
+€ 744
+","
+€ 1,232
+","
+€ 7,227
+"
+2023-04-19 09:49:24,Intercontinental Geneve,"
+€ 622
+","
+€ 744
+","
+€ 1,232
+","
+€ 7,227
+"
+2023-04-19 10:08:58,Intercontinental Geneve,"
+€ 622
+","
+€ 744
+","
+€ 1,232
+","
+€ 7,227
+"
+2023-04-19 10:05:35,Intercontinental Geneve,"
+€ 622
+","
+€ 744
+","
+€ 1,232
+","
+€ 7,227
+"
+2023-04-19 10:13:31,Intercontinental Geneve,"
+€ 622
+","
+€ 744
+","
+€ 1,232
+","
+€ 7,227
 "
 2023-04-19 09:54:59,Intercontinental Geneve,"
 € 622
@@ -827,14 +983,50 @@ Timestamp,name, Standard, Superior, Junior Suite, Suite
 ","
 € 7,227
 "
-2023-04-20 10:34:46,Intercontinental Geneve,"
-€ 470
+2023-04-19 10:17:26,Intercontinental Geneve,"
+€ 622
 ","
-€ 592
+€ 744
 ","
-€ 774
+€ 1,232
 ","
-€ 7,072
+€ 7,227
+"
+2023-04-19 09:50:14,Intercontinental Geneve,"
+€ 622
+","
+€ 744
+","
+€ 1,232
+","
+€ 7,227
+"
+2023-04-19 10:40:52,Intercontinental Geneve,"
+€ 622
+","
+€ 744
+","
+€ 1,232
+","
+€ 7,227
+"
+2023-04-19 09:47:23,Intercontinental Geneve,"
+€ 622
+","
+€ 744
+","
+€ 1,232
+","
+€ 7,227
+"
+2023-04-19 10:11:12,Intercontinental Geneve,"
+€ 622
+","
+€ 744
+","
+€ 1,232
+","
+€ 7,227
 "
 2023-04-19 15:29:13,Intercontinental Geneve,"
 € 541
@@ -854,105 +1046,6 @@ Timestamp,name, Standard, Superior, Junior Suite, Suite
 ","
 € 7,251
 "
-2023-04-18 16:37:16,Intercontinental Geneve,"
-€ 624
-","
-€ 747
-","
-€ 1,236
-","
-€ 7,251
-"
-2023-04-19 10:40:52,Intercontinental Geneve,"
-€ 622
-","
-€ 744
-","
-€ 1,232
-","
-€ 7,227
-"
-2023-04-19 15:27:30,Intercontinental Geneve,"
-€ 541
-","
-€ 663
-","
-€ 1,151
-","
-€ 7,146
-"
-2023-04-20 15:33:19,Intercontinental Geneve,"
-€ 470
-","
-€ 592
-","
-€ 774
-","
-€ 7,072
-"
-2023-04-19 10:05:35,Intercontinental Geneve,"
-€ 622
-","
-€ 744
-","
-€ 1,232
-","
-€ 7,227
-"
-2023-04-19 10:08:58,Intercontinental Geneve,"
-€ 622
-","
-€ 744
-","
-€ 1,232
-","
-€ 7,227
-"
-2023-04-19 09:50:14,Intercontinental Geneve,"
-€ 622
-","
-€ 744
-","
-€ 1,232
-","
-€ 7,227
-"
-2023-04-20 14:55:46,Intercontinental Geneve,"
-€ 470
-","
-€ 592
-","
-€ 774
-","
-€ 7,072
-"
-2023-04-19 10:11:12,Intercontinental Geneve,"
-€ 622
-","
-€ 744
-","
-€ 1,232
-","
-€ 7,227
-"
-2023-04-19 10:13:31,Intercontinental Geneve,"
-€ 622
-","
-€ 744
-","
-€ 1,232
-","
-€ 7,227
-"
-2023-04-20 14:48:46,Intercontinental Geneve,"
-€ 470
-","
-€ 592
-","
-€ 774
-","
-€ 7,072
-"
 2023-04-18 16:21:00,Intercontinental Geneve,"
 € 624
 ","
@@ -962,50 +1055,14 @@ Timestamp,name, Standard, Superior, Junior Suite, Suite
 ","
 € 7,251
 "
-2023-04-19 10:17:26,Intercontinental Geneve,"
-€ 622
+2023-04-18 16:37:16,Intercontinental Geneve,"
+€ 624
 ","
-€ 744
+€ 747
 ","
-€ 1,232
+€ 1,236
 ","
-€ 7,227
-"
-2023-04-19 09:49:24,Intercontinental Geneve,"
-€ 622
-","
-€ 744
-","
-€ 1,232
-","
-€ 7,227
-"
-2023-04-20 13:54:41,Intercontinental Geneve,"
-€ 470
-","
-€ 592
-","
-€ 774
-","
-€ 7,072
-"
-2023-04-19 11:19:38,Intercontinental Geneve,"
-€ 622
-","
-€ 744
-","
-€ 1,232
-","
-€ 7,227
-"
-2023-04-20 14:49:53,Intercontinental Geneve,"
-€ 470
-","
-€ 592
-","
-€ 774
-","
-€ 7,072
+€ 7,251
 "
 2023-04-19 15:25:36,Intercontinental Geneve,"
 € 541
@@ -1016,43 +1073,16 @@ Timestamp,name, Standard, Superior, Junior Suite, Suite
 ","
 € 7,146
 "
-2023-04-19 09:47:23,Intercontinental Geneve,"
-€ 622
+2023-04-19 15:27:30,Intercontinental Geneve,"
+€ 541
 ","
-€ 744
+€ 663
 ","
-€ 1,232
+€ 1,151
 ","
-€ 7,227
+€ 7,146
 "
-2023-04-20 14:52:05,Intercontinental Geneve,"
-€ 470
-","
-€ 592
-","
-€ 774
-","
-€ 7,072
-"
-2023-04-20 13:53:52,Intercontinental Geneve,"
-€ 470
-","
-€ 592
-","
-€ 774
-","
-€ 7,072
-"
-2023-04-18 16:37:16,Mandarin Oriental,"
-€ 803
-","
-€ 874
-","
-€ 1,078
-","
-€ 1,282
-"
-2023-04-20 14:48:46,Mandarin Oriental,"
+2023-04-20 15:33:19,Mandarin Oriental,"
 € 744
 ","
 € 800
@@ -1070,43 +1100,7 @@ Timestamp,name, Standard, Superior, Junior Suite, Suite
 ","
 € 1,277
 "
-2023-04-20 14:52:05,Mandarin Oriental,"
-€ 744
-","
-€ 800
-","
-€ 1,023
-","
-€ 1,277
-"
-2023-04-20 14:55:46,Mandarin Oriental,"
-€ 744
-","
-€ 800
-","
-€ 1,023
-","
-€ 1,277
-"
-2023-04-20 15:33:19,Mandarin Oriental,"
-€ 744
-","
-€ 800
-","
-€ 1,023
-","
-€ 1,277
-"
-2023-04-20 14:41:21,Mandarin Oriental,"
-€ 744
-","
-€ 800
-","
-€ 1,023
-","
-€ 1,277
-"
-2023-04-18 16:41:43,Mandarin Oriental,"
+2023-04-18 16:37:16,Mandarin Oriental,"
 € 803
 ","
 € 874
@@ -1115,25 +1109,25 @@ Timestamp,name, Standard, Superior, Junior Suite, Suite
 ","
 € 1,282
 "
-2023-04-18 16:21:00,Mandarin Oriental,"
-€ 803
+2023-04-19 10:05:35,Mandarin Oriental,"
+€ 775
 ","
-€ 874
+€ 887
 ","
-€ 1,078
+€ 1,207
 ","
-€ 1,282
+€ 1,318
 "
-2023-04-20 13:54:41,Mandarin Oriental,"
-€ 744
+2023-04-20 15:51:29,Mandarin Oriental,"
+€ 769
 ","
-€ 800
+€ 871
 ","
-€ 1,023
+€ 1,242
 ","
 € 1,277
 "
-2023-04-19 10:40:52,Mandarin Oriental,"
+2023-04-19 09:54:59,Mandarin Oriental,"
 € 775
 ","
 € 887
@@ -1151,16 +1145,25 @@ Timestamp,name, Standard, Superior, Junior Suite, Suite
 ","
 € 1,318
 "
-2023-04-19 11:19:38,Mandarin Oriental,"
-€ 775
+2023-04-18 16:41:43,Mandarin Oriental,"
+€ 803
 ","
-€ 887
+€ 874
 ","
-€ 1,207
+€ 1,078
 ","
-€ 1,318
+€ 1,282
 "
-2023-04-19 10:13:31,Mandarin Oriental,"
+2023-04-20 14:55:46,Mandarin Oriental,"
+€ 744
+","
+€ 800
+","
+€ 1,023
+","
+€ 1,277
+"
+2023-04-19 10:11:12,Mandarin Oriental,"
 € 775
 ","
 € 887
@@ -1178,51 +1181,6 @@ Timestamp,name, Standard, Superior, Junior Suite, Suite
 ","
 € 1,318
 "
-2023-04-19 15:25:36,Mandarin Oriental,"
-€ 775
-","
-€ 887
-","
-€ 1,207
-","
-€ 1,318
-"
-2023-04-19 10:11:12,Mandarin Oriental,"
-€ 775
-","
-€ 887
-","
-€ 1,207
-","
-€ 1,318
-"
-2023-04-19 15:27:30,Mandarin Oriental,"
-€ 775
-","
-€ 887
-","
-€ 1,207
-","
-€ 1,318
-"
-2023-04-19 15:29:13,Mandarin Oriental,"
-€ 775
-","
-€ 887
-","
-€ 1,207
-","
-€ 1,318
-"
-2023-04-19 10:17:26,Mandarin Oriental,"
-€ 775
-","
-€ 887
-","
-€ 1,207
-","
-€ 1,318
-"
 2023-04-19 09:47:23,Mandarin Oriental,"
 € 775
 ","
@@ -1231,6 +1189,15 @@ Timestamp,name, Standard, Superior, Junior Suite, Suite
 € 1,207
 ","
 € 1,318
+"
+2023-04-20 14:52:05,Mandarin Oriental,"
+€ 744
+","
+€ 800
+","
+€ 1,023
+","
+€ 1,277
 "
 2023-04-20 10:34:46,Mandarin Oriental,"
 € 744
@@ -1250,7 +1217,16 @@ Timestamp,name, Standard, Superior, Junior Suite, Suite
 ","
 € 1,318
 "
-2023-04-19 09:54:59,Mandarin Oriental,"
+2023-04-20 13:54:41,Mandarin Oriental,"
+€ 744
+","
+€ 800
+","
+€ 1,023
+","
+€ 1,277
+"
+2023-04-19 15:29:13,Mandarin Oriental,"
 € 775
 ","
 € 887
@@ -1259,7 +1235,7 @@ Timestamp,name, Standard, Superior, Junior Suite, Suite
 ","
 € 1,318
 "
-2023-04-19 10:05:35,Mandarin Oriental,"
+2023-04-19 15:27:30,Mandarin Oriental,"
 € 775
 ","
 € 887
@@ -1277,34 +1253,93 @@ Timestamp,name, Standard, Superior, Junior Suite, Suite
 ","
 € 1,277
 "
-2023-04-19 09:50:14,Ritz Carlton Hotel de la Paix,"
-€ 922
-",0,"
-€ 1,532
-",0
-2023-04-20 14:52:05,Ritz Carlton Hotel de la Paix,"
+2023-04-19 15:25:36,Mandarin Oriental,"
+€ 775
+","
+€ 887
+","
+€ 1,207
+","
+€ 1,318
+"
+2023-04-19 11:19:38,Mandarin Oriental,"
+€ 775
+","
+€ 887
+","
+€ 1,207
+","
+€ 1,318
+"
+2023-04-20 14:48:46,Mandarin Oriental,"
+€ 744
+","
+€ 800
+","
+€ 1,023
+","
+€ 1,277
+"
+2023-04-19 10:40:52,Mandarin Oriental,"
+€ 775
+","
+€ 887
+","
+€ 1,207
+","
+€ 1,318
+"
+2023-04-20 14:41:21,Mandarin Oriental,"
+€ 744
+","
+€ 800
+","
+€ 1,023
+","
+€ 1,277
+"
+2023-04-19 10:17:26,Mandarin Oriental,"
+€ 775
+","
+€ 887
+","
+€ 1,207
+","
+€ 1,318
+"
+2023-04-18 16:21:00,Mandarin Oriental,"
+€ 803
+","
+€ 874
+","
+€ 1,078
+","
+€ 1,282
+"
+2023-04-19 10:13:31,Mandarin Oriental,"
+€ 775
+","
+€ 887
+","
+€ 1,207
+","
+€ 1,318
+"
+2023-04-20 14:49:53,Ritz Carlton Hotel de la Paix,"
 € 901
 ","
 € 1,054
 ","
 € 1,511
 ",0
-2023-04-19 10:11:12,Ritz Carlton Hotel de la Paix,"
+2023-04-20 15:51:29,Ritz Carlton Hotel de la Paix,"
 € 922
-",0,"
-€ 1,532
+","
+€ 1,074
+","
+€ 1,531
 ",0
-2023-04-19 10:05:35,Ritz Carlton Hotel de la Paix,"
-€ 922
-",0,"
-€ 1,532
-",0
-2023-04-19 10:13:31,Ritz Carlton Hotel de la Paix,"
-€ 922
-",0,"
-€ 1,532
-",0
-2023-04-20 15:33:19,Ritz Carlton Hotel de la Paix,"
+2023-04-20 14:48:46,Ritz Carlton Hotel de la Paix,"
 € 901
 ","
 € 1,054
@@ -1320,66 +1355,6 @@ Timestamp,name, Standard, Superior, Junior Suite, Suite
 ","
 € 2,149
 "
-2023-04-19 10:08:58,Ritz Carlton Hotel de la Paix,"
-€ 922
-",0,"
-€ 1,532
-",0
-2023-04-20 14:55:46,Ritz Carlton Hotel de la Paix,"
-€ 901
-","
-€ 1,054
-","
-€ 1,511
-",0
-2023-04-19 10:40:52,Ritz Carlton Hotel de la Paix,"
-€ 922
-",0,"
-€ 1,532
-",0
-2023-04-19 09:49:24,Ritz Carlton Hotel de la Paix,"
-€ 922
-",0,"
-€ 1,532
-",0
-2023-04-20 13:54:41,Ritz Carlton Hotel de la Paix,"
-€ 901
-","
-€ 1,054
-","
-€ 1,511
-",0
-2023-04-20 14:49:53,Ritz Carlton Hotel de la Paix,"
-€ 901
-","
-€ 1,054
-","
-€ 1,511
-",0
-2023-04-19 11:19:38,Ritz Carlton Hotel de la Paix,"
-€ 922
-",0,"
-€ 1,532
-",0
-2023-04-19 15:25:36,Ritz Carlton Hotel de la Paix,"
-€ 922
-","
-€ 1,075
-","
-€ 1,532
-",0
-2023-04-19 09:47:23,Ritz Carlton Hotel de la Paix,"
-€ 922
-",0,"
-€ 1,532
-",0
-2023-04-20 14:48:46,Ritz Carlton Hotel de la Paix,"
-€ 901
-","
-€ 1,054
-","
-€ 1,511
-",0
 2023-04-19 15:27:30,Ritz Carlton Hotel de la Paix,"
 € 922
 ","
@@ -1387,11 +1362,16 @@ Timestamp,name, Standard, Superior, Junior Suite, Suite
 ","
 € 1,532
 ",0
-2023-04-19 15:29:13,Ritz Carlton Hotel de la Paix,"
+2023-04-20 10:34:46,Ritz Carlton Hotel de la Paix,"
+€ 927
+","
+€ 1,079
+","
+€ 1,536
+",0
+2023-04-19 10:11:12,Ritz Carlton Hotel de la Paix,"
 € 922
-","
-€ 1,075
-","
+",0,"
 € 1,532
 ",0
 2023-04-18 16:37:16,Ritz Carlton Hotel de la Paix,"
@@ -1403,19 +1383,26 @@ Timestamp,name, Standard, Superior, Junior Suite, Suite
 ","
 € 2,149
 "
-2023-04-20 14:41:21,Ritz Carlton Hotel de la Paix,"
+2023-04-20 15:33:19,Ritz Carlton Hotel de la Paix,"
 € 901
 ","
 € 1,054
 ","
 € 1,511
 ",0
-2023-04-20 10:34:46,Ritz Carlton Hotel de la Paix,"
-€ 927
+2023-04-19 15:29:13,Ritz Carlton Hotel de la Paix,"
+€ 922
 ","
-€ 1,079
+€ 1,075
 ","
-€ 1,536
+€ 1,532
+",0
+2023-04-19 15:25:36,Ritz Carlton Hotel de la Paix,"
+€ 922
+","
+€ 1,075
+","
+€ 1,532
 ",0
 2023-04-18 16:41:43,Ritz Carlton Hotel de la Paix,"
 € 925
@@ -1433,12 +1420,80 @@ Timestamp,name, Standard, Superior, Junior Suite, Suite
 ","
 € 1,511
 ",0
+2023-04-19 11:19:38,Ritz Carlton Hotel de la Paix,"
+€ 922
+",0,"
+€ 1,532
+",0
+2023-04-20 14:55:46,Ritz Carlton Hotel de la Paix,"
+€ 901
+","
+€ 1,054
+","
+€ 1,511
+",0
+2023-04-19 09:47:23,Ritz Carlton Hotel de la Paix,"
+€ 922
+",0,"
+€ 1,532
+",0
+2023-04-19 10:05:35,Ritz Carlton Hotel de la Paix,"
+€ 922
+",0,"
+€ 1,532
+",0
+2023-04-20 14:41:21,Ritz Carlton Hotel de la Paix,"
+€ 901
+","
+€ 1,054
+","
+€ 1,511
+",0
+2023-04-19 10:40:52,Ritz Carlton Hotel de la Paix,"
+€ 922
+",0,"
+€ 1,532
+",0
+2023-04-19 09:49:24,Ritz Carlton Hotel de la Paix,"
+€ 922
+",0,"
+€ 1,532
+",0
+2023-04-19 10:13:31,Ritz Carlton Hotel de la Paix,"
+€ 922
+",0,"
+€ 1,532
+",0
+2023-04-20 14:52:05,Ritz Carlton Hotel de la Paix,"
+€ 901
+","
+€ 1,054
+","
+€ 1,511
+",0
+2023-04-20 13:54:41,Ritz Carlton Hotel de la Paix,"
+€ 901
+","
+€ 1,054
+","
+€ 1,511
+",0
+2023-04-19 09:50:14,Ritz Carlton Hotel de la Paix,"
+€ 922
+",0,"
+€ 1,532
+",0
 2023-04-19 10:17:26,Ritz Carlton Hotel de la Paix,"
 € 922
 ",0,"
 € 1,532
 ",0
 2023-04-19 09:54:59,Ritz Carlton Hotel de la Paix,"
+€ 922
+",0,"
+€ 1,532
+",0
+2023-04-19 10:08:58,Ritz Carlton Hotel de la Paix,"
 € 922
 ",0,"
 € 1,532

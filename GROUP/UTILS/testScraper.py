@@ -1,3 +1,4 @@
+from datetime import datetime, timedelta
 import requests
 from bs4 import BeautifulSoup
 import time
@@ -10,12 +11,23 @@ now = datetime.now()  # get the current date and time
 time_str = now.strftime("%Y-%m-%d %H:%M:%S")
 
 
+# Get the current date
+current_date = datetime.now()
+
+# Calculate the next day's date by adding one day to the current date
+next_day = current_date + timedelta(days=1)
+
+# Format the current and next day's dates in 'yyyy-mm-dd' format
+formatted_current_date = current_date.strftime('%Y-%m-%d')
+formatted_next_day = next_day.strftime('%Y-%m-%d')
+
+
 headers = {
     "User-agent": "Mozilla/5.0 (Windows NT 10.0; Win64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"}
 
 
 def getUrl(hotel_url):
-    return f"https://www.booking.com/hotel/ch/{hotel_url}.en-gb.html?checkin=2023-04-22&checkout=2023-04-23&group_adults=2&group_children=0&no_rooms=1&selected_currency=EUR"
+    return f"https://www.booking.com/hotel/ch/{hotel_url}.en-gb.html?checkin={formatted_current_date}&checkout={formatted_next_day}&group_adults=2&group_children=0&no_rooms=1&selected_currency=EUR"
 
 
 def scrapeHotels(hotels):
