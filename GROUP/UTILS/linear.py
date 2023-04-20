@@ -27,12 +27,13 @@ data['Timestamp'] = (data['Timestamp'] -
 def clean_price(price_str):
     return float(price_str.replace('\n', '').replace('€', '').replace(',', '').strip())
 
+
 # def make_linear_regression(room_type_name):
 #     # Clean the room_type_name column by applying the clean_price function
 #     data[room_type_name] = data[room_type_name].apply(clean_price)
 
 #     # Set the independent variable (X) to 'Timestamp' and the dependent variable (Y) to room_type_name
-#     X = data[['Timestamp']]
+#     X = data[['Timestamp']].set_axis(['Timestamp'], axis=1)  # Set feature names
 #     Y = data[room_type_name]
 
 #     # Split the data into training (80%) and testing (20%) sets
@@ -45,23 +46,22 @@ def clean_price(price_str):
 #     # Fit the model to the training data
 #     linear_regression.fit(X_train, Y_train)
 
-#     # Make predictions on the test data
-#     Y_pred = linear_regression.predict(X_test)
+#     # # Make predictions on the test data
+#     # Y_pred = linear_regression.predict(X_test)
 
 #     # Predict the price for tomorrow
 #     last_timestamp = data['Timestamp'].max()
 #     next_timestamp = last_timestamp + 24  # Add 24 hours for the next day
 #     tomorrow_price = linear_regression.predict([[next_timestamp]])
 
-#     print(
-#         f"\nThe expected price for {room_type_name} tomorrow: €{tomorrow_price[0]:.2f}\n")
+#     print(f"\n{blue_cli}The expected price for {room_type_name} tomorrow: €{tomorrow_price[0]:.2f}\n")
 
 def make_linear_regression(room_type_name):
     # Clean the room_type_name column by applying the clean_price function
     data[room_type_name] = data[room_type_name].apply(clean_price)
 
     # Set the independent variable (X) to 'Timestamp' and the dependent variable (Y) to room_type_name
-    X = data[['Timestamp']].set_axis(['Timestamp'], axis=1)  # Set feature names
+    X = data[['Timestamp']].to_numpy()  # Convert DataFrame to NumPy array
     Y = data[room_type_name]
 
     # Split the data into training (80%) and testing (20%) sets
@@ -74,12 +74,12 @@ def make_linear_regression(room_type_name):
     # Fit the model to the training data
     linear_regression.fit(X_train, Y_train)
 
-    # # Make predictions on the test data
-    # Y_pred = linear_regression.predict(X_test)
+    # Make predictions on the test data
+    Y_pred = linear_regression.predict(X_test)
 
     # Predict the price for tomorrow
     last_timestamp = data['Timestamp'].max()
     next_timestamp = last_timestamp + 24  # Add 24 hours for the next day
-    tomorrow_price = linear_regression.predict([[next_timestamp]])
+    tomorrow_price = linear_regression.predict(np.array([[next_timestamp]]))
 
-    print(f"\n{blue_cli}The expected price for {room_type_name} tomorrow: €{tomorrow_price[0]:.2f}\n")
+    print(f"\nThe expected price for {room_type_name} tomorrow: €{tomorrow_price[0]:.2f}\n")
