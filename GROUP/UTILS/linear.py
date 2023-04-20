@@ -16,11 +16,15 @@ print(data.head())
 
 # Convert the timestamp to a numerical feature (time difference in hours)
 data['Timestamp'] = pd.to_datetime(data['Timestamp'])
-data['Timestamp'] = (data['Timestamp'] - data['Timestamp'].min()) / np.timedelta64(1, 'h')
+data['Timestamp'] = (data['Timestamp'] -
+                     data['Timestamp'].min()) / np.timedelta64(1, 'h')
 
 # Define a function to clean the prices by removing non-numeric characters and converting to float
+
+
 def clean_price(price_str):
     return float(price_str.replace('\n', '').replace('€', '').replace(',', '').strip())
+
 
 # Clean the 'Standard' column by applying the clean_price function
 data['Standard'] = data['Standard'].apply(clean_price)
@@ -30,7 +34,8 @@ X = data[['Timestamp']]
 Y = data['Standard']
 
 # Split the data into training (80%) and testing (20%) sets
-X_train, X_test, Y_train, Y_test = train_test_split(X, Y, test_size=0.2, random_state=0)
+X_train, X_test, Y_train, Y_test = train_test_split(
+    X, Y, test_size=0.2, random_state=0)
 
 # Create a linear regression model
 linear_regression = LinearRegression()
@@ -59,6 +64,5 @@ plt.xlabel('Timestamp (hours since first observation)')
 plt.ylabel('Standard Room Price')
 plt.title('Linear Regression')
 plt.legend()
-
-# Display the plot
+    # Display the plot
 plt.show()
